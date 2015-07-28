@@ -1,7 +1,9 @@
 # TemporaryFile
 
-A PHP helper class to manipulate a temporary file.
+[![Build Status](https://travis-ci.org/kohkimakimoto/TemporaryFile.svg)](https://travis-ci.org/kohkimakimoto/TemporaryFile)
+[![Latest Stable Version](https://poser.pugx.org/kohkimakimoto/temporary-file/v/stable)](https://packagist.org/packages/kohkimakimoto/temporary-file) [![Total Downloads](https://poser.pugx.org/kohkimakimoto/temporary-file/downloads)](https://packagist.org/packages/kohkimakimoto/temporary-file) [![Latest Unstable Version](https://poser.pugx.org/kohkimakimoto/temporary-file/v/unstable)](https://packagist.org/packages/kohkimakimoto/temporary-file) [![License](https://poser.pugx.org/kohkimakimoto/temporary-file/license)](https://packagist.org/packages/kohkimakimoto/temporary-file)
 
+A PHP helper class to manipulate a temporary file.
 
 ```php
 use Kohkimakimoto\TemporaryFile\TemporaryFile;
