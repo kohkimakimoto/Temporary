@@ -1,0 +1,24 @@
+{
+    "name": "kohkimakimoto/temporary-file",
+    "description": "A PHP helper class to manipulate a temporary file.",
+    "keywords": ["Temporary"],
+    "homepage": "https://github.com/kohkimakimoto/temporary-file",
+    "license": "MIT",
+    "authors": [{
+        "name": "Kohki Makimoto",
+        "email": "kohki.makimoto@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "fabpot/php-cs-fixer": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kohkimakimoto\\TemporaryFile\\": "src/"
+        }
+    }
+
+}
