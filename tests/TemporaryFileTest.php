@@ -1,8 +1,9 @@
 <?php
 
-namespace Test\Kohkimakimoto\TemporaryFile;
+namespace Test\Kohkimakimoto\Temporary;
 
-use Kohkimakimoto\TemporaryFile\TemporaryFile;
+use Kohkimakimoto\Temporary\TemporaryFile;
+use Kohkimakimoto\Temporary\TemporaryDir;
 
 class TemporaryFileTest extends \PHPUnit_Framework_TestCase
 {
@@ -17,7 +18,9 @@ class TemporaryFileTest extends \PHPUnit_Framework_TestCase
         // just get.
         $hd = $file->handle();
 
+        $this->assertTrue(file_exists($file));
         $file->close();
+        $this->assertFalse(file_exists($file));
     }
 
     public function testForReadme()
@@ -28,5 +31,8 @@ class TemporaryFileTest extends \PHPUnit_Framework_TestCase
         $tmpfile->write("temporary data...");
 
         echo $data = $tmpfile->read(); // temporary data...
+
+        $tmpdir = new TemporaryDir();
+        echo $tmpdir->path();   // ex) /private/var/folders/bt/xwh9qmcj00dctz53_rxclgtr0000gn/T/KFHg4L
     }
 }

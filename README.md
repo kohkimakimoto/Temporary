@@ -1,12 +1,12 @@
-# TemporaryFile
+# Temporary
 
-[![Build Status](https://travis-ci.org/kohkimakimoto/TemporaryFile.svg)](https://travis-ci.org/kohkimakimoto/TemporaryFile)
-[![Latest Stable Version](https://poser.pugx.org/kohkimakimoto/temporary-file/v/stable)](https://packagist.org/packages/kohkimakimoto/temporary-file) [![Total Downloads](https://poser.pugx.org/kohkimakimoto/temporary-file/downloads)](https://packagist.org/packages/kohkimakimoto/temporary-file) [![Latest Unstable Version](https://poser.pugx.org/kohkimakimoto/temporary-file/v/unstable)](https://packagist.org/packages/kohkimakimoto/temporary-file) [![License](https://poser.pugx.org/kohkimakimoto/temporary-file/license)](https://packagist.org/packages/kohkimakimoto/temporary-file)
+[![Build Status](https://travis-ci.org/kohkimakimoto/TemporaryFile.svg)](https://travis-ci.org/kohkimakimoto/Temporary)
+[![Latest Stable Version](https://poser.pugx.org/kohkimakimoto/temporary/v/stable)](https://packagist.org/packages/kohkimakimoto/temporary) [![Total Downloads](https://poser.pugx.org/kohkimakimoto/temporary/downloads)](https://packagist.org/packages/kohkimakimoto/temporary) [![Latest Unstable Version](https://poser.pugx.org/kohkimakimoto/temporary/v/unstable)](https://packagist.org/packages/kohkimakimoto/temporary) [![License](https://poser.pugx.org/kohkimakimoto/temporary/license)](https://packagist.org/packages/kohkimakimoto/temporary)
 
 A PHP helper class to manipulate a temporary file.
 
 ```php
-use Kohkimakimoto\TemporaryFile\TemporaryFile;
+use Kohkimakimoto\Temporary\TemporaryFile;
 
 $tmpfile = new TemporaryFile();
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Kohkimakimoto\TemporaryFile;
+namespace Kohkimakimoto\Temporary;
 
 class TemporaryFile
 {
     /**
      * @var resource
      */
-    protected $tempfile;
+    protected $handle;
 
     /**
      * @var string
@@ -16,11 +16,14 @@ class TemporaryFile
 
     protected $closed;
 
-    public function __construct()
+    public function __construct($dir = null, $prefix = "")
     {
-        $this->tempfile = tmpfile();
-        $metaData = stream_get_meta_data($this->tempfile);
-        $this->path = $metaData['uri'];
+        if ($dir === null) {
+            $dir = sys_get_temp_dir();
+        }
+
+        $this->path = tempnam($dir, $prefix);
+        $this->handle = fopen($this->path, "w");
 
         $this->closed = false;
     }
@@ -47,14 +50,20 @@ class TemporaryFile
 
     public function handle()
     {
-        return $this->tempfile;
+        return $this->handle;
     }
 
     public function close()
     {
         if (!$this->closed) {
-            fclose($this->tempfile);
+            fclose($this->handle);
+            unlink($this->path);
             $this->closed = true;
         }
+    }
+
+    public function __toString()
+    {
+        return $this->path;
     }
 }

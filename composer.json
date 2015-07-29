@@ -1,5 +1,5 @@
 {
-    "name": "kohkimakimoto/temporary-file",
+    "name": "kohkimakimoto/temporary",
     "description": "A PHP helper class to manipulate a temporary file.",
     "keywords": ["Temporary"],
     "homepage": "https://github.com/kohkimakimoto/temporary-file",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kohkimakimoto\\TemporaryFile\\": "src/"
+            "Kohkimakimoto\\Temporary\\": "src/"
         }
     }
 
