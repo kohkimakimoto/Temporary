@@ -1,7 +1,7 @@
 # Temporary
 
 [![Build Status](https://travis-ci.org/kohkimakimoto/Temporary.svg)](https://travis-ci.org/kohkimakimoto/Temporary)
-[![Latest Stable Version](https://poser.pugx.org/kohkimakimoto/temporary/v/stable)](https://packagist.org/packages/kohkimakimoto/temporary) [![Total Downloads](https://poser.pugx.org/kohkimakimoto/temporary/downloads)](https://packagist.org/packages/kohkimakimoto/temporary) [![Latest Unstable Version](https://poser.pugx.org/kohkimakimoto/temporary/v/unstable)](https://packagist.org/packages/kohkimakimoto/temporary) [![License](https://poser.pugx.org/kohkimakimoto/temporary/license)](https://packagist.org/packages/kohkimakimoto/temporary)
+[![Latest Stable Version](https://poser.pugx.org/davidpersson/temporary/v/stable)](https://packagist.org/packages/davidpersson/temporary) [![Total Downloads](https://poser.pugx.org/davidpersson/temporary/downloads)](https://packagist.org/packages/davidpersson/temporary) [![Latest Unstable Version](https://poser.pugx.org/davidpersson/temporary/v/unstable)](https://packagist.org/packages/davidpersson/temporary) [![License](https://poser.pugx.org/davidpersson/temporary/license)](https://packagist.org/packages/davidpersson/temporary)
 
 A PHP helper class to manipulate a temporary file and directory.
 
