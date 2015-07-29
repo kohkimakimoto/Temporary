@@ -5,7 +5,7 @@
 
 A PHP helper class to manipulate a temporary file and directory.
 
-Usage temporary file.
+temporary file.
 
 ```php
 use Kohkimakimoto\Temporary\TemporaryFile;
@@ -20,7 +20,7 @@ echo $data = $tmpfile->read(); // temporary data...
 // You don't need to close it. The temporary file will be closed automatically when the object removes.
 ```
 
-Usage temporary directory.
+temporary directory.
 
 ```php
 use Kohkimakimoto\Temporary\TemporaryDir;
