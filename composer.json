@@ -2,7 +2,7 @@
     "name": "kohkimakimoto/temporary",
     "description": "A PHP helper class to manipulate a temporary file.",
     "keywords": ["Temporary"],
-    "homepage": "https://github.com/kohkimakimoto/temporary-file",
+    "homepage": "https://github.com/kohkimakimoto/temporary",
     "license": "MIT",
     "authors": [{
         "name": "Kohki Makimoto",

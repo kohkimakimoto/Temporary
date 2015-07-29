@@ -43,7 +43,7 @@ Create `composer.json` for installing via composer..
 ```
 {
     "require": {
-        "kohkimakimoto/temporary": "0.1.*"
+        "kohkimakimoto/temporary": "1.0.*"
     }
 }
 ```
